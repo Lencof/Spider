@@ -1,7 +1,7 @@
 from html.parser import HTMLParser
 from urllib import parse
 
-
+# create class LinkFinder(HTMLParser):
 class LinkFinder(HTMLParser):
 
     def __init__(self, base_url, page_url):
@@ -22,4 +22,4 @@ class LinkFinder(HTMLParser):
         return self.links
 
     def error(self, message):
-        pass
+        pass # An empty block
