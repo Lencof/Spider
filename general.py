@@ -1,5 +1,5 @@
 import os
-
+import sys
 
 # Each website is a separate project (folder)
 def create_project_dir(directory):
